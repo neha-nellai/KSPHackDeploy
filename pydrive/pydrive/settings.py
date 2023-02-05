@@ -32,7 +32,7 @@ SECRET_KEY = '#le-e52u*ixhby07cfm@tz2==&z@kd7=s2f&%h627uor6m@f2@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 STATICFILES_DIRS = ['static']
 MEDIA_ROOT = os.path.join(BASE_DIR, 'user_data')
 MEDIA_URL = '/user_data/'
