@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'pydrive.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pydrive_db',
-        'USER': 'root',
-        'PASSWORD': '$ara$wathi',
-        'HOST': '127.0.0.1',
-        'PORT': '',
+        'NAME': 'ksppolice',
+        'USER': 'Police123',
+        'PASSWORD': 'ksp@12345',
+        'HOST': 'ksppolice.mysql.database.azure.com',
+        'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
